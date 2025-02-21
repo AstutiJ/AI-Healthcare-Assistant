@@ -1,0 +1,8 @@
+streamlit
+transformers
+tensorflow-cpu  # Using CPU version to avoid GPU errors
+nltk
+tensorflow-keras  # tf-keras is outdated, use tensorflow-keras
+torch  # PyTorch needed for transformers
+torchvision
+torchaudio
