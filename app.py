@@ -1,6 +1,7 @@
 import streamlit as st
 import nltk
-from transformers import pipeline
+from transformers.pipelines import pipeline
+
 
 # Download NLTK dependencies
 nltk.download("punkt")
