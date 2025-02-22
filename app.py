@@ -1,14 +1,11 @@
 import streamlit as st
 import nltk
-from transformers.pipelines import pipeline
-
-
-# Download NLTK dependencies
+from transformers import pipeline  
 nltk.download("punkt")
 nltk.download("stopwords")
 
 # Load a healthcare-related question-answering model
-qa_model = pipeline("question-answering", model="bert-large-uncased-whole-word-masking-finetuned-squad")
+qa_model = pipeline("question-answering", model="bert-large-uncased-whole-word-masking-finetuned-squad", device=-1)  
 
 # Define medical context for better responses
 medical_context = """
@@ -41,3 +38,6 @@ def main():
 # Run the Streamlit app
 if __name__ == "__main__":
     main()
+
+
+
