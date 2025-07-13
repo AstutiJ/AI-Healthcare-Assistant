@@ -1,7 +1,7 @@
 # AI-Healthcare-Assistant
 # contributers
-->Astuti
-->Aaska Pandey
+- Astuti
+- Aaska Pandey
 ## Overview
 The *AI Healthcare Assistant* is a *Streamlit-based web application* that provides AI-powered healthcare insights.
 
